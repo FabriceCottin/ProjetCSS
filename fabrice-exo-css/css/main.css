@@ -445,6 +445,52 @@ footer {
   width: 25%;
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background: rgb(196, 191, 191);
+    color: #000;
+  }
+    footer {
+    height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-footer {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .col-25-footer {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .container-footer {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .icon-footer {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-footer-last {
+    width: 100%;
+    flex-direction: column;
+}
+.col-25-footer-last {
+    width: 100%;
+    flex-direction: column;
+ 
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}
+
 
 
 
