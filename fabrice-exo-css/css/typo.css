@@ -1,3 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|ZCOOL+KuaiLe&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+body {
+font-family: "Roboto", sans-serif;
+}
+p {
+  font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  font-family: "Noto", sans-serif;
+}
+h1 {
+  font-size: 54px;
+}
+h2 {
+  font-size: 42px;
+}
+h3 {
+  font-size: 28px;
+  white-space: nowrap;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 18px;
+}
 
